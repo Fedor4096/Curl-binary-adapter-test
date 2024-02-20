@@ -1,0 +1,9 @@
+version: 0
+name: urlDownloader
+modules:
+  facade:
+    get: modules/facade
+  localStorage:
+    get: https://github.com/fluencelabs/services/blob/master/local_storage.tar.gz?raw=true
+  curlAdapter:
+    get: modules/curl_adapter
